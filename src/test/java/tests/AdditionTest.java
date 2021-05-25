@@ -11,7 +11,7 @@ public class AdditionTest extends BaseTest implements ITestData {
     }
 
     @Test(dataProvider = "Calculator input", dataProviderClass = ITestData.class,
-            description = "Add tvo numbers via dataProvider", priority = 1)
+            description = "Add two numbers via dataProvider", priority = 1)
     public void addNumbersViaDataProviderTest(double firstNumber, double secondNumber) {
         Assert.assertEquals(calculator.add(firstNumber, secondNumber), firstNumber + secondNumber);
     }

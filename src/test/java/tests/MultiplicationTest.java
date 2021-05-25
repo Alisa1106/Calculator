@@ -7,7 +7,7 @@ public class MultiplicationTest extends BaseTest implements ITestData {
 
     @Test(description = "Multiply two numbers", priority = 2)
     public void multiplyNumbersTest() {
-        Assert.assertEquals(calculator.multiply(150, 400), 60_000);
+        Assert.assertEquals(calculator.multiply(150, 400), 60000);
     }
 
     @Test(dataProvider = "Calculator input", dataProviderClass = ITestData.class,
