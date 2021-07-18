@@ -4,6 +4,8 @@
     <test name="AdditionTests">
         <classes>
             <class name="tests.AdditionTest"/>
+            <parameter name="firstNumber" value="12"/>
+            <parameter name="secondNumber" value="8"/>
         </classes>
     </test> <!-- Test -->
     <test name="DivisionTests">
